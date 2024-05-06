@@ -1,140 +1,79 @@
-* {
-    box-sizing: border-box;
-  }
-   
-  body {
-    font-family: 'Quicksand', sans-serif;
-   
-    margin: 0;
-    padding: 0;
-  }
-   
-  h2,
-  h3 {
-    color: #2d3e50;
-  }
-   
-  footer {
-    padding: 20px;
-    color: white;
-    background-color: #89b0d9;
-   text-decoration: none;
+:root {
+  --primary: #ffa500;
+  --bg: #0e0e10;
+  --bg1: #1f1f23;
+}
 
-    text-align: center;
-    font-weight: bold;
-  }
-   
-  nav a {
-    font-size: 18px;
-   
-    font-weight: 400;
-    text-decoration: none;
-   
-    color: white;
-  }
-   
-  nav a:hover {
-    font-weight: bold;
-  }
-   
-  .profile header {
-    text-align: center;
-  }
-   
-  .imageContent {
-    width: 65%;
-    max-height: 600px;
-   
-    object-fit: cover;
-    object-position: center;
-  }
+/* Jumbotron*/
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #ffa500;
+  color: #1f1f23;
+}
 
-  .sertif{
-    width: 25%;
-    max-height: 300px;
-   
-    object-fit: cover;
-    object-position: center;
-  }
-   
-  .profile img {
-    max-width: 200px;
-    border-radius: 50%;
-  }
-   
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-   
-    padding: 20px;
-  }
-   
-  .jumbotron {
-    font-size: 20px;
-    padding: 60px;
-    background-color: #89b0d9;
-    text-align: center;
-    color: white;
-  }
-   
-  nav ul {
-    padding-inline: 4rem;
-    display: flex;
-   
-    gap: 2rem;
-  }
-   
-  nav li {
-    list-style-type: none;
-  }
-   
-  nav {
-    background-color: #2d3e50;
-    padding: 5px;
-    position: sticky;
-    top: 0;
-  }
-   
-  main {
-    padding: 20px;
-   
-    display: flex;
-    gap: 1.5rem;
-  }
-   
-  #content {
-    flex: 5;
-   
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 1rem 2rem;
-  }
-   
-  aside {
-    flex: 1;
-  }
-   
-  header {
-    display: inline;
-  }
-   
-  /* Perangkat dengan lebar layar 1200px dan di bawahnya */
-  @media screen and (max-width: 1200px) {
-    main {
-      flex-flow: column nowrap;
-    }
-   
-    main aside {
-      align-self: center;
-    }
-  }
-   
-  /* Perangkat dengan lebar layar 768px dan di bawahnya */
-  @media screen and (max-width: 768px) {
-    nav ul {
-      justify-content: center;
-    }
-    main aside {
-      align-self: stretch;
-    }
-  }
+.jumbotron span {
+  color: #fff;
+}
+
+/*aboutMe*/
+
+#aboutMe,
+#education,
+#contact {
+  background-color: #1f1f23;
+  color: #fff;
+}
+
+#aboutMe span,
+#experience span,
+#education span,
+#license span,
+#contact span {
+  color: #ffa500;
+}
+
+/*experience*/
+
+#experience,
+#license {
+  background-color: #0e0e10;
+  color: #fff;
+}
+
+.card {
+  background-color: #1f1f23;
+  color: #fff;
+}
+
+.list-group-item {
+  background-color: #1f1f23;
+  color: #fff;
+}
+.col-md-6 {
+  padding-bottom: 2rem;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+h5 {
+  color: #ffa500;
+}
+
+h2 {
+  padding-bottom: 2rem;
+}
+
+button {
+  color: #ffa500;
+  background-color: #ffa500;
+}
+
+footer .footer {
+  background-color: #ffa500;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 5rem;
+  text-decoration: none;
+}
